@@ -1,4 +1,5 @@
 # TreeFellerPlus
+![alt text](tree.png "Bye bye tree!")
 ## Fells, or chops down, trees automatically, similar to the Timber mod.
 
 ### Features:
