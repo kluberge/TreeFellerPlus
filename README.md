@@ -10,5 +10,5 @@
 - treefeller.use: Allows one to automatically fell trees. All players have it by default.
 
 #### Notes:
-One must use an axe when felling the tree[br]
+One must use an axe when felling the tree<br/>
 Requires Java 7, Java 8, or Java 9.
