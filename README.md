@@ -1,5 +1,5 @@
 # TreeFellerPlus
-#### Fells, or chops down, trees automatically, similar to the Timber mod.
+## Fells, or chops down, trees automatically, similar to the Timber mod.
 
 ### Features:
 * Automatically fells and chops down entire trees when the base of the tree is broken
