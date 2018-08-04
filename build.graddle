@@ -1,0 +1,15 @@
+group 'me.kluberge.treefeller'
+version '1.0'
+
+apply plugin: 'java'
+
+repositories {
+    mavenCentral()
+    maven {
+	   url "https://hub.spigotmc.org/nexus/content/repositories/snapshots"
+	}
+}
+
+dependencies {
+    compileOnly "org.spigotmc:spigot-api:1.12.2-R0.1-SNAPSHOT"
+}

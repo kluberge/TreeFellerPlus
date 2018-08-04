@@ -1,0 +1,9 @@
+name: ${project.name}
+main: ${main.class}
+version: ${project.version}
+author: kluberge
+description: Allows one to instantly fell trees
+permissions:
+    treefeller.use:
+        description: Allows usage of the plugin
+        default: true
