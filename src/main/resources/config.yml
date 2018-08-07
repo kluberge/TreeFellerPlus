@@ -1,0 +1,33 @@
+# If this is set to true then players in creative mode will be able to fell trees
+# Otherwise, players in creative mode will not be able to fell trees
+allow-creative: false
+
+# If this is set to true then felling trees will take item durability
+# Otherwise, the item won't take extra durability
+durability: true
+
+# Only set this to false if problems with anti-cheat plugins are encountered
+enable-compatibility-mode: true
+
+# If this is set to true then tree fells will also cause leaves to break
+# Otherwise, leaves will not break 
+fell-leaves: true
+
+# If this is set to true, then an axe will be needed to fell trees
+# Otherwise, any item can fell trees
+need-axe: true
+
+# Only set this to false if problems with the felling algorithm are encountered
+###### WARNING: setting this value to false will remove anti-grief checks ######
+use-heuristics: true
+
+# List of worlds in which trees cannot be felled
+world-blacklist:
+- UncoolWorld1
+- UncoolWorld2
+
+# Do not change this unless you know what you're doing!
+version: 1.1
+
+# Don't change this either!
+debug: false

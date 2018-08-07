@@ -3,7 +3,16 @@ main: ${main.class}
 version: ${project.version}
 author: kluberge
 description: Allows one to instantly fell trees
+commands:
+  treefellerplus:
+    description: Reload TreeFellerPlus
+    aliases: [treefeller, tf, tfp]
+    permission: treefeller.reload
+    usage: /treefeller reload
 permissions:
-    treefeller.use:
-        description: Allows usage of the plugin
+    treefellerplus.use:
+        description: Allows player to cut down entire trees
         default: true
+    treefellerplus.reload:
+        description: Allows player to reload plugin
+        default: op

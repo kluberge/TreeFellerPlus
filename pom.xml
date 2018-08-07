@@ -5,8 +5,8 @@
 	<modelVersion>4.0.0</modelVersion>
 	
 	<groupId>me.kluberge.treefeller</groupId>
-	<artifactId>TreeFeller</artifactId>
-	<version>1.0</version>
+	<artifactId>TreeFellerPlus</artifactId>
+	<version>1.1</version>
 	
 	<repositories>
 		<repository>
@@ -15,13 +15,6 @@
 		</repository>
 	</repositories>
 	<dependencies>
-		<!--Spigot API-->
-		<dependency>
-		   <groupId>org.spigotmc</groupId>
-		   <artifactId>spigot-api</artifactId>
-		   <version>1.12.2-R0.1-SNAPSHOT</version>
-		   <scope>provided</scope>
-		</dependency>
 		<!--Bukkit API-->
 		<dependency>
 			<groupId>org.bukkit</groupId>
@@ -56,7 +49,7 @@
     </build>
 	
 	<properties>
-		<jdk>1.8</jdk>
+		<jdk>1.7</jdk>
 		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
 		<main.class>main.java.me.kluberge.treefeller.TreeFeller</main.class>
 	</properties>
