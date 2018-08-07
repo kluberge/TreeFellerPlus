@@ -36,15 +36,16 @@ public class TreeBreakListener implements Listener
 	public void onTreeFell(BlockBreakEvent e)
 	{
 		Player p = e.getPlayer();
-		if(p == null || !p.hasPermission("treefeller.use") || felling)
+		if(p == null || !p.hasPermission("treefellerplus.use") || felling)
 			return;
 		
 		if(!(Boolean) Setting.CREATIVE.getValue()
 				&& p.getGameMode().equals(GameMode.CREATIVE))
 			return;
 		
+		@SuppressWarnings("deprecation") //needed for 1.8 compatibility
+		ItemStack item = p.getInventory().getItemInHand();
 		
-		ItemStack item = p.getInventory().getItemInMainHand();
 		if((Boolean) Setting.NEED_AXE.getValue()
 				&& item.getType() != Material.WOOD_AXE
 				&& item.getType() != Material.STONE_AXE
@@ -290,6 +291,9 @@ public class TreeBreakListener implements Listener
 		Block bottom =  b.getRelative(BlockFace.DOWN);
 		return bottom.getType() == Material.DIRT
 					|| bottom.getType() == Material.GRASS
+					|| bottom.getType() == Material.GRAVEL
+					|| bottom.getType() == Material.SAND
+					|| bottom.getType() == Material.CLAY
 					|| (!strict && isLog(bottom));
 	}
 	

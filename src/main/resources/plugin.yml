@@ -7,8 +7,8 @@ commands:
   treefellerplus:
     description: Reload TreeFellerPlus
     aliases: [treefeller, tf, tfp]
-    permission: treefeller.reload
-    usage: /treefeller reload
+    permission: treefellerplus.reload
+    usage: /treefellerplus reload
 permissions:
     treefellerplus.use:
         description: Allows player to cut down entire trees

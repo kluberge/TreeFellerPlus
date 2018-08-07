@@ -13,7 +13,7 @@ public class CommandHandler implements CommandExecutor
 		if((label.equalsIgnoreCase("treefeller") || label.equalsIgnoreCase("treefellerplus") || label.equalsIgnoreCase("tf") || label.equalsIgnoreCase("tfp")) 
 				&& args.length == 1 
 				&& args[0].equalsIgnoreCase("reload")
-				&& sender.hasPermission("treefeller.reload"))
+				&& sender.hasPermission("treefellerplus.reload"))
 		{
 			if(TreeFeller.getInstance().reload())
 				sender.sendMessage(TreeFeller.getPrefix()+ChatColor.GREEN+" Successfully reloaded the config");
