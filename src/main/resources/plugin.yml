@@ -10,9 +10,9 @@ commands:
     permission: treefellerplus.reload
     usage: /treefellerplus reload
 permissions:
-    treefellerplus.use:
-        description: Allows player to cut down entire trees
-        default: true
-    treefellerplus.reload:
-        description: Allows player to reload plugin
-        default: op
+  treefellerplus.use:
+    description: Allows player to cut down entire trees
+      default: true
+  treefellerplus.reload:
+      description: Allows player to reload plugin
+      default: op
